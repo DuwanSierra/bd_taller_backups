@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-  db:
+  database:
     container_name: pg_container
     image: postgres
     restart: always
@@ -12,6 +12,14 @@ services:
       - "./data:/var/lib/postgresql"
     ports:
       - "5433:5432"
+  client_db:
+    container_name: pg_initializer
+    build: ./psql_client/
+    volumes:
+      - "./data:/var/lib/postgresql/"
+    command: ["/bin/sh", "/var/lib/postgresql/commands/comandos_ejecutar.sh"]
+    depends_on:
+      - database
   pgadmin:
     container_name: pgadmin4_container
     image: dpage/pgadmin4

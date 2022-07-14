@@ -1,0 +1,6 @@
+Codigo_Libro;Titulo;ISBN;Edicion;No_Pag;FK_Codigo_Editorial
+1001;La bella y la bestia;3001;1;175;2018
+1002;Titanic;3002;2;200;2015
+1003;Economia para tontos;3003;1;109;2016
+1004;Projectos ingenieria;3004;3;409;2017
+1005;Pinoccio;3005;4;500;2018
