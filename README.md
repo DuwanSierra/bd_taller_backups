@@ -1,6 +1,14 @@
 # bd_taller_backups
 ![UDistrital](https://www.udistrital.edu.co/themes/custom/versh/logo.png)
+
 [Universidad Distrital Francisco José de Caldas](https://www.udistrital.edu.co/inicio)
+
+Prerequisites
+-----
+
+I assume you have installed Docker and it is running.
+
+See the [Docker website](http://www.docker.io/gettingstarted/#h_installation) for installation instructions.
 
 Dependecies
 -----
@@ -9,13 +17,6 @@ An project have this dependencies:
  * Docker
  * Docker Compose
  * Git
-
-Prerequisites
------
-
-I assume you have installed Docker and it is running.
-
-See the [Docker website](http://www.docker.io/gettingstarted/#h_installation) for installation instructions.
 
 How to Work
 -----
